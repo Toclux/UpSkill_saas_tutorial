@@ -33,6 +33,17 @@ h1, h2, h3 {
     border:none;
 }
 
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a
+{
+    color:#993300;
+    &:hover {
+      color:black;
+      opacity:.075;  
+    }
+}
+
+
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
