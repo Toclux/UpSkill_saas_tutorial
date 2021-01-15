@@ -32,7 +32,8 @@ h1, h2, h3 {
     background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */            
     
 }            
-
+// Nav styles 
+// Take into account that we are using saass in a lot of these instances to make it all much simpler 
 .navbar {
     border:none;
 }
@@ -50,6 +51,19 @@ h1, h2, h3 {
 .navbar-brand {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#993300;
+    
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid #003366;
+    &:hover, &:focus {
+        background-color: #003366;
+    }
 }
 
 .home-callout {
